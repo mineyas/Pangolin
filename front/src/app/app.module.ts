@@ -9,13 +9,15 @@ import {HomeComponent} from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {UserService} from './user.service'
 import { HttpClientModule } from '@angular/common/http';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

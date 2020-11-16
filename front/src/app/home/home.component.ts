@@ -25,6 +25,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  moveToProfile(){
+    this._router.navigate(['/profile']);
+  }
 
   logout(){
     this._user.logout()
